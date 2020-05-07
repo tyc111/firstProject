@@ -1,0 +1,30 @@
+{
+  "id": "1800322",
+  "name": "my-project",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "681193",
+      "name": "前进",
+      "font_class": "qianjin",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "554424",
+      "name": "定位",
+      "font_class": "iconset0391",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "808007",
+      "name": "note",
+      "font_class": "note",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    }
+  ]
+}

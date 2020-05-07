@@ -1,0 +1,19 @@
+<!--logs.wxml-->
+<view class="user">
+  <view class="header">
+    <image class="header-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="header-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="content">
+    <view class="content-li">
+      <text class="iconfont iconiconset0391"></text>
+      <text>收货地址</text>
+      <text class="iconfont iconqianjin"></text>
+    </view>
+    <view class="content-li">
+      <text class="iconfont iconnote"></text>
+      <text>使用须知</text>
+      <text class="iconfont iconqianjin"></text>
+    </view>
+  </view>
+</view>

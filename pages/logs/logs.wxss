@@ -1,0 +1,36 @@
+.user {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 3rpx solid rgb(247, 244, 244);
+  border-top: 3rpx solid rgb(247, 244, 244);
+  background: #fff;
+}
+.header-avatar {
+  width: 128rpx;
+  height: 129rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.header-nickname {
+  padding: 20rpx;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+}
+.content-li {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  background: #fff;
+  border-bottom: 3rpx solid rgb(247, 244, 244);
+  border-top: 3rpx solid rgb(247, 244, 244);
+}
