@@ -6,6 +6,111 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1728046",
+      "name": "亲子游",
+      "font_class": "qinziyou",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "4144989",
+      "name": "外卖",
+      "font_class": "waimai",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "512394",
+      "name": "酒店",
+      "font_class": "jiudian",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "651196",
+      "name": "我的美食",
+      "font_class": "meishi",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "931098",
+      "name": "洗浴汗蒸",
+      "font_class": "xiyu",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1544811",
+      "name": "丽人",
+      "font_class": "liren1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1574647",
+      "name": "KTV",
+      "font_class": "ktv",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "2050028",
+      "name": "周边游",
+      "font_class": "zhoubianyou",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "2719374",
+      "name": "休闲娱乐",
+      "font_class": "xiuxian",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3787378",
+      "name": "火锅",
+      "font_class": "huoguo",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "4183859",
+      "name": "电影演出赛事",
+      "font_class": "dianying",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6402662",
+      "name": "运动健身",
+      "font_class": "yundongjianshen",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7370775",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8692252",
+      "name": "景点",
+      "font_class": "jingdian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14220866",
+      "name": "足疗按摩",
+      "font_class": "-zuliaoanmo1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
       "icon_id": "681193",
       "name": "前进",
       "font_class": "qianjin",

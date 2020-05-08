@@ -6,10 +6,16 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  //事件处理函数
+  //事件处理函数(收货地址)
   bindViewTap: function () {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../address/address'
+    })
+  },
+  //事件处理函数(使用须知)
+  bindVInsTap: function () {
+    wx.navigateTo({
+      url: '../instruction/instruction'
     })
   },
   onLoad: function () {
@@ -30,6 +36,7 @@ Page({
     } else {
       // 在没有 open-type=getUserInfo 版本的兼容处理
       wx.getUserInfo({
+        lang: 'zh_CN',
         success: res => {
           app.globalData.userInfo = res.userInfo
           this.setData({

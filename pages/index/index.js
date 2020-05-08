@@ -4,6 +4,9 @@ const app = getApp()
 
 Page({
   data: {
+    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    iconArr: ["iconmeishi", "iconwaimai", "iconxiuxian", "iconjiudian", "icondianying", "iconzhoubianyou", "iconjingdian", "iconktv", "iconliren1", "iconqinziyou", "iconhuoguo", "icon-zuliaoanmo1", "iconxiyu", "iconyundongjianshen", "iconquanbu"],
+    textArr: ['美食', '外卖', '休闲娱乐', '酒店', '电影/演出', '周边游', '景点门票', 'KTV', '丽人', '亲子', '火锅', '按摩/足疗', '洗浴汗蒸', '运动健身', '全部'],
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -11,7 +14,7 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../logs/logs'
     })
   },
@@ -33,6 +36,7 @@ Page({
     } else {
       // 在没有 open-type=getUserInfo 版本的兼容处理
       wx.getUserInfo({
+        lang: 'zh_CN',
         success: res => {
           app.globalData.userInfo = res.userInfo
           this.setData({

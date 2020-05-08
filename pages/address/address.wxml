@@ -1,0 +1,6 @@
+<view class="address">
+  <view class="address-btn" bindtap='openAddress'>
+    <text class="address-icon">+</text>
+    <text>新增地址</text>
+  </view>
+</view>

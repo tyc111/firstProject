@@ -2,17 +2,24 @@
 <view class="user">
   <view class="header">
     <image class="header-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-    <text class="header-nickname">{{userInfo.nickName}}</text>
+    <view class="headInfo">
+      <text class="header-nickname">{{userInfo.nickName}}</text>
+      <text class="user-address">{{userInfo.city}}</text>
+    </view>
   </view>
   <view class="content">
-    <view class="content-li">
-      <text class="iconfont iconiconset0391"></text>
-      <text>收货地址</text>
-      <text class="iconfont iconqianjin"></text>
+    <view class="content-li" bindtap="bindViewTap">
+      <view>
+        <text class="iconfont iconiconset0391"></text>
+        <text class="li-text">收货地址</text>
+      </view>
+      <text class="iconfont iconqianjin "></text>
     </view>
-    <view class="content-li">
-      <text class="iconfont iconnote"></text>
-      <text>使用须知</text>
+    <view class="content-li" bindtap="bindVInsTap">
+      <view>
+        <text class="iconfont iconnote"></text>
+        <text class="li-text">使用须知</text>
+      </view>
       <text class="iconfont iconqianjin"></text>
     </view>
   </view>

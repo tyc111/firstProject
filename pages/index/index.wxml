@@ -1,13 +1,48 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <view class="swiper" wx:else>
+    <view>
+      <swiper indicator-dots="true" autoplay="true" circular="true" interval="2000">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="grid">
+      <view wx:for="{{iconArr}}" class="grid-item">
+        <text class="iconfont {{item}} icon"></text>
+        <text class="grid-text">{{textArr[index]}}</text>
+      </view>
+    </view>
+    <view class="more">
+      <text class="more-title">猜你喜欢</text>
+      <view class="more-detail">
+        <image class="more-img" src="../../images/home/niupai.png" mode="cover"></image>
+        <view class="more-text">
+          <view class="text">
+            <text class="blod">八合里大牛排 2人餐</text>
+            <text>[虹桥镇]鹅肝  沙拉  甜点</text>
+          </view>
+          <view>
+            <text class="h2">$120.0</text>
+          </view>
+        </view>
+      </view>
+      <view class="more-detail">
+        <image class="more-img" src="../../images/home/niupai.png" mode="cover"></image>
+        <view class="more-text">
+          <view class="text">
+            <text class="blod">八合里大牛排 2人餐</text>
+            <text>[虹桥镇]鹅肝  沙拉  甜点</text>
+          </view>
+          <view>
+            <text class="h2">$120.0</text>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

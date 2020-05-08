@@ -1,0 +1,19 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.address-icon {
+  margin: 20rpx;
+  color: green;
+  font-size: 40rpx;
+}
+.address-btn {
+  background: #fff;
+  width: 100%;
+  border: 3rpx solid #ccc;
+  text-align: center;
+  padding: 20rpx 0;
+}
