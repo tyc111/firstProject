@@ -32,14 +32,14 @@
         </view>
       </view>
       <view class="more-detail">
-        <image class="more-img" src="../../images/home/niupai.png" mode="cover"></image>
+        <image class="more-img" src="../../images/home/huoguo.png" mode="cover"></image>
         <view class="more-text">
           <view class="text">
-            <text class="blod">八合里大牛排 2人餐</text>
-            <text>[虹桥镇]鹅肝  沙拉  甜点</text>
+            <text class="blod">左庭右院鲜牛肉火锅 2人餐</text>
+            <text>[金桥]牛腿  牛肚  鸳鸯锅</text>
           </view>
           <view>
-            <text class="h2">$120.0</text>
+            <text class="h2">$300.0</text>
           </view>
         </view>
       </view>
